@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSimvar
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Simvar>
+        <bPending>false</bPending>
+		<iCanId>309</iCanId>
+        <sName>AILERON POSITION</sName>
+        <sUnits>position 16K</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+		<iCanId>308</iCanId>
+        <sName>ELEVATOR POSITION</sName>
+        <sUnits>position 16K</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>GEAR HANDLE POSITION</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>ELEVATOR TRIM POSITION</sName>
+        <sUnits>Radians</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+		<iCanId>306</iCanId>
+        <sName>RUDDER POSITION</sName>
+        <sUnits>position 16K</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>GENERAL ENG MIXTURE LEVER POSITION:1</sName>
+        <sUnits>percent</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+		    <iCanId>414</iCanId>
+        <sName>GENERAL ENG THROTTLE LEVER POSITION:1</sName>
+        <sUnits>percent</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>BRAKE PARKING POSITION</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>SELECTED DME</sName>
+        <sUnits>Number</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>MASTER IGNITION SWITCH</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>ELECTRICAL MASTER BATTERY</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>GENERAL ENG ANTI ICE POSITION:1</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>FLAP POSITION SET</sName>
+        <sUnits>position</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>ADF ACTIVE FREQUENCY:1</sName>
+        <sUnits>Frequency ADF BCD32</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>TRANSPONDER CODE</sName>
+        <sUnits>Bco16</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>false</bPending>
+        <sName>LIGHT BEACON</sName>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1004</iCanId>
+		<sName>PLANE ALTITUDE</sName>
+		<sUnits>Feet</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1005</iCanId>
+		<sName>PLANE LONGITUDE</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1006</iCanId>
+		<sName>PLANE LATITUDE</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1007</iCanId>
+		<sName>PLANE BANK DEGREES</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1008</iCanId>
+		<sName>PLANE HEADING DEGREES TRUE</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1009</iCanId>
+		<sName>PLANE PITCH DEGREES</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+</ArrayOfSimvar>

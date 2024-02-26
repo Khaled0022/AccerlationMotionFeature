@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSimvar
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!--Für die Implementierung in Client.cs in ProcessIncomeData() ist es essentiell dass die Reihenfolge der Werte
+	in diesem Dokument gleich bleibt. Sollten neue Werte angefragt werden müssen, so hängt die entsprechenden Zeilen ANS ENDE-->
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>AIRSPEED INDICATED</sName>
+		    <iCanId>315</iCanId>
+        <dValue>0</dValue>
+        <sUnits>Knots</sUnits>
+		<eTransmissionSlot>D</eTransmissionSlot>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>INNER MARKER</sName>
+        <dValue>0</dValue>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>MIDDLE MARKER</sName>
+        <dValue>0</dValue>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>OUTER MARKER</sName>
+        <dValue>0</dValue>
+        <sUnits>Bool</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>>
+        <bPending>true</bPending>
+        <sName>NAV DME:1</sName>
+        <dValue>0</dValue>
+        <sUnits>nmile</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>NAV DMESPEED:1</sName>
+        <dValue>0</dValue>
+        <sUnits>Knots</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>GENERAL ENG RPM:1</sName>
+        <dValue>0</dValue>
+        <sUnits>RPM</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+	<Simvar>
+		<bPending>true</bPending>
+		<sName>PROP RPM:1</sName>
+		<iCanId>500</iCanId>
+		<dValue>0</dValue>
+		<sUnits>RPM</sUnits>
+		<eTransmissionSlot>D</eTransmissionSlot>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>GENERAL ENG ELAPSED TIME:1</sName>
+        <dValue>0</dValue>
+        <sUnits>Hours</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>FUEL TANK LEFT MAIN QUANTITY</sName>
+        <dValue>0</dValue>
+        <sUnits>Gallons</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>FUEL TANK RIGHT MAIN QUANTITY</sName>
+        <dValue>0</dValue>
+        <sUnits>Gallons</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ELECTRICAL GENALT BUS AMPS</sName>
+        <dValue>0</dValue>
+        <sUnits>amp</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ENG OIL PRESSURE:1</sName>
+        <dValue>0</dValue>
+        <sUnits>psf</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ENG CYLINDER HEAD TEMPERATURE:1</sName>
+        <dValue>0</dValue>
+        <sUnits>Rankine</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ENG OIL TEMPERATURE:1</sName>
+        <dValue>0</dValue>
+        <sUnits>Rankine</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ATTITUDE INDICATOR BANK DEGREES</sName>
+        <dValue>0</dValue>
+        <sUnits>Radians</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ATTITUDE INDICATOR PITCH DEGREES</sName>
+        <dValue>0</dValue>
+        <sUnits>Radians</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>TURN COORDINATOR BALL</sName>
+		    <iCanId>340</iCanId>
+        <dValue>0</dValue>
+        <sUnits>position 128</sUnits>
+		<eTransmissionSlot>D</eTransmissionSlot>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+	<Simvar>
+		<bPending>true</bPending>
+		<sName>TURN INDICATOR RATE</sName>
+		<iCanId>331</iCanId>
+		<dValue>0</dValue>
+		<sUnits>Radians per second</sUnits>
+		<eTransmissionSlot>D</eTransmissionSlot>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>VERTICAL SPEED</sName>
+		    <iCanId>314</iCanId>
+        <dValue>0</dValue>
+        <sUnits>feet/second</sUnits>
+		<eTransmissionSlot>D</eTransmissionSlot>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <iCanId>203</iCanId>
+        <bPending>true</bPending>
+        <sName>PLANE HEADING DEGREES GYRO</sName>
+        <dValue>0</dValue>
+        <sUnits>degrees</sUnits>
+        <eTransmissionSlot>D</eTransmissionSlot>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ADF CARD</sName>
+        <dValue>0</dValue>
+        <sUnits>degrees</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <bPending>true</bPending>
+        <sName>ADF RADIAL</sName>
+        <dValue>0</dValue>
+        <sUnits>degrees</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <eBusId>canOpen</eBusId>
+        <iCanId>202</iCanId>
+        <bPending>true</bPending>
+        <sName>ACCELERATION BODY X</sName>
+        <dValue>0</dValue>
+        <sUnits>feet/second</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <eBusId>canOpen</eBusId>
+        <iCanId>201</iCanId>
+        <bPending>true</bPending>
+        <sName>ACCELERATION BODY Y</sName>
+        <dValue>0</dValue>
+        <sUnits>feet/second</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+    <Simvar>
+        <eBusId>canOpen</eBusId>
+        <iCanId>200</iCanId>
+        <bPending>true</bPending>
+        <sName>ACCELERATION BODY Z</sName>
+        <dValue>0</dValue>
+        <sUnits>feet/second</sUnits>
+        <bStillPending>false</bStillPending>
+    </Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1014</iCanId>
+		<sName>PLANE ALTITUDE</sName>
+		<sUnits>Feet</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1015</iCanId>
+		<sName>PLANE LONGITUDE</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+	<Simvar>
+		<bPending>false</bPending>
+		<iCanId>1016</iCanId>
+		<sName>PLANE LATITUDE</sName>
+		<sUnits>Radians</sUnits>
+		<bStillPending>false</bStillPending>
+	</Simvar>
+</ArrayOfSimvar>
